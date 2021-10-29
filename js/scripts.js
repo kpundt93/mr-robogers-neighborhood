@@ -1,3 +1,5 @@
+// Business logic
+
 function userInput(input) {
   const numArray = [];
   for (let i = 0; i <= input; i++) {
@@ -6,6 +8,9 @@ function userInput(input) {
   const stringArray = numArray.toString().split(",");
   return stringArray;
 }
+
+
+// UI logic
 
 function singleDigits(input) {
   if (input === 1) {
