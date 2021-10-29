@@ -45,7 +45,7 @@ _Describe: singleDigit(input)_
   Code: singleDigit(4);
   Expected Output: false;_
 
-_Describe: multiDigit(input)
+_Describe: multiDigit(input)_
 * _Test: It should recognize the string "3" in a multidigit number string and return "Won't you be my neighbor?".
   Code: multiDigit("34");
   Expected Output: "Won't you be my neighbor?"_
@@ -57,6 +57,10 @@ _Describe: multiDigit(input)
 * _Test: It should recognize the string "1" in a multidigit number string and return "Beep!".
   Code: multiDigit("14");
   Expected Output: "Beep!"_
+
+* _Test: It should recognize when the string does not contain a "1", "2", or "3" and return false.
+  Code: multiDigit("44");
+  Expected Output: false;_
 
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
