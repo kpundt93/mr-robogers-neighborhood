@@ -1,0 +1,36 @@
+body {
+  background-image: url("/img/house-background.jpg");
+  background-size: cover;
+}
+
+.container {
+  background-color: #F7F7F7;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2em;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+.btn {
+  margin-bottom: 2em;
+}
+
+h5 {
+  padding-bottom: 1em;
+}
+
+li {
+  list-style-type: square;
+  padding-left: 2em;
+}
+
+li:last-of-type {
+  padding-bottom: 2em;
+}
