@@ -23,7 +23,11 @@ _Describe: userInput()_
 * _Test: It should return an array with every whole integer from 0 to the user supplied number.
   Code: userInput(5);
   Expected Output: [0, 1, 2, 3, 4, 5]_
-  
+
+* _Test: It should convert the number array into a string array.
+  Code: userInput(5);
+  Expected Output: ["0", "1", "2", "3", "4", "5"]_
+
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
 
