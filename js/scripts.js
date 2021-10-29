@@ -33,11 +33,11 @@ $(document).ready(function() {
     event.preventDefault();
     const input = $("#num-input").val();
     const output = [];
+    const finalArray = mrRoboger(input);
     mrRoboger(input).forEach(function(element) {
-      output.push(element);
-      $("#result").append(output);
-    })
-    console.log(output);
+      output.push(element + " ");
+      $("#result").append("<li>" + output.toString().split(",").pop() + "</li>");
+    });
   });
 });
 
