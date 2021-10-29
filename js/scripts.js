@@ -9,6 +9,19 @@ function userInput(input) {
   return stringArray;
 }
 
+function mrRoboger(input) {
+  const finalArray = [];
+  const stringArray = userInput(input);
+  stringArray.forEach(function(element) {
+    if (element.includes("3")) {
+      finalArray.push("Won't you be my neighbor?");
+    } else {
+      finalArray.push(element);
+    }
+  });
+  return finalArray;
+}
+
 
 // UI logic
 
@@ -23,6 +36,7 @@ function singleDigit(input) {
     return false;
   }
 }
+
 
 function multiDigit(input) {
   if (input.includes("3")) {
