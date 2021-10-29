@@ -37,6 +37,10 @@ _Describe: singleDigit(input)_
   Code: singleDigit(2);
   Expected Output: "Boop!";_
 
+* _Test: It should recognize when the number is a 3 and return "Boop!".
+  Code: singleDigit(3);
+  Expected Output: "Won't you be my neighbor?";_
+
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
 
