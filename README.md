@@ -46,6 +46,10 @@ _Describe: multiDigit(input)
   Code: multiDigit("34");
   Expected Output: "Won't you be my neighbor?"_
 
+* _Test: It should recognize the string "2" in a multidigit number string and return "Won't you be my neighbor?".
+  Code: multiDigit("24");
+  Expected Output: "Boop!"_
+
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
 
