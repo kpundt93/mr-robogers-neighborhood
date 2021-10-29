@@ -28,6 +28,18 @@ function mrRoboger(input) {
 
 
 // UI logic
+$(document).ready(function() {
+  $("#input").submit(function(event) {
+    event.preventDefault();
+    const input = $("#num-input").val();
+    const output = [];
+    mrRoboger(input).forEach(function(element) {
+      output.push(element);
+      $("#result").append(output);
+    })
+    console.log(output);
+  });
+});
 
 // function singleDigit(input) {
 //   if (input === 1) {
