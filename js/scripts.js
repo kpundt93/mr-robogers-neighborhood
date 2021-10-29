@@ -12,6 +12,9 @@ function singleDigits(input) {
     return "Beep!";
   } else if (input === 2) {
     return "Boop!";
+  } else if (input === 3) {
+    return "Won't you be my neighbor?";
+  } else {
+    return false;
   }
-  return false;
 }
