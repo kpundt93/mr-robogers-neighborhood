@@ -33,6 +33,10 @@ _Describe: singleDigit(input)_
   Code: singleDigit(1);
   Expected Output: "Beep!";_
 
+* _Test: It should recognize when the number is a 2 and return "Boop!".
+  Code: singleDigit(2);
+  Expected Output: "Boop!";_
+
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
 
