@@ -12,7 +12,7 @@ function userInput(input) {
 
 // UI logic
 
-function singleDigits(input) {
+function singleDigit(input) {
   if (input === 1) {
     return "Beep!";
   } else if (input === 2) {
