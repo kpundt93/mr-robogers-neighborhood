@@ -10,6 +10,8 @@ function userInput(input) {
 function singleDigits(input) {
   if (input === 1) {
     return "Beep!";
+  } else if (input === 2) {
+    return "Boop!";
   }
   return false;
 }
