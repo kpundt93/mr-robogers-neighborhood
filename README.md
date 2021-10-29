@@ -41,6 +41,10 @@ _Describe: singleDigit(input)_
   Code: singleDigit(3);
   Expected Output: "Won't you be my neighbor?";_
 
+* _Test: It should recognize when the number is anything other than a 1, 2, or 3 and return false.
+  Code: singleDigit(4);
+  Expected Output: false;_
+
 _Describe: multiDigit(input)
 * _Test: It should recognize the string "3" in a multidigit number string and return "Won't you be my neighbor?".
   Code: multiDigit("34");
