@@ -63,9 +63,9 @@ _Describe: multiDigit(input)_
   Expected Output: false;_
 
 _Describe: mrRoboger(input)_
-* _Test: It should take a single string number, loop over the digits, and push the correct phrase into a final array.
-  Code: mrRoboger("35");
-  Expected Output: ["Won't you be my neighbor?"]_
+* _Test: It should take an input, loop over the input array, and push the correct phrase into a final array.
+  Code: mrRoboger(5);
+  Expected Output: ["0", "1", "2", "Won't you be my neighbor?", "4", "5"]_
 
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
