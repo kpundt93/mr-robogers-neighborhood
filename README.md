@@ -71,6 +71,10 @@ _Describe: mrRoboger(input)_
   Code: mrRoboger(5);
   Expected Output: ["0", "1", "Boop!", "Won't you be my neighbor?", "4", "5"]_
 
+* _Test: It should take an input, loop over the input array, and push the correct phrase into a final array. This test adds in branching for "Beep!".
+  Code: mrRoboger(5);
+  Expected Output: ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5"]_
+
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
 
