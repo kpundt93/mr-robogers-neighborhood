@@ -19,7 +19,11 @@
 _The application will take a user supplied number and return a range of numbers from 0 to the user supplied number. Substitutions will be made for numbers that follow certain rules and greetings from Mr. Roboger will be returned in place of a number._
 
 ## Tests
-
+_Describe: userInput()_
+* _Test: It should return an array with every whole integer from 0 to the user supplied number.
+  Code: userInput(5);
+  Expected Output: [0, 1, 2, 3, 4, 5]_
+  
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
 
