@@ -3,5 +3,6 @@ function userInput(input) {
   for (let i = 0; i <= input; i++) {
     numArray.push(i);
   }
-  return numArray;
+  const stringArray = numArray.toString().split(",");
+  return stringArray;
 }
