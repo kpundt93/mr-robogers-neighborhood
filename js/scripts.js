@@ -6,3 +6,10 @@ function userInput(input) {
   const stringArray = numArray.toString().split(",");
   return stringArray;
 }
+
+function singleDigits(input) {
+  if (input === 1) {
+    return "Beep!";
+  }
+  return false;
+}
