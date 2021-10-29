@@ -26,6 +26,11 @@ h5 {
   padding-bottom: 1em;
 }
 
+#robot {
+  max-width: 100%;
+  height: auto;
+}
+
 li {
   list-style-type: square;
   padding-left: 2em;
