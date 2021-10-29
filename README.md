@@ -28,9 +28,9 @@ _Describe: userInput(input)_
   Code: userInput(5);
   Expected Output: ["0", "1", "2", "3", "4", "5"]_
 
-_Describe: contains(input)_
-* _Test: It should recognize when the array contains the number 1 and return "Beep!" in place of 1.
-  Code: contains(1);
+_Describe: singleDigit(input)_
+* _Test: It should recognize when the number is a 1 and return "Beep!".
+  Code: singleDigit(1);
   Expected Output: "Beep!";_
 
 ## GitHub Pages
