@@ -23,3 +23,9 @@ function singleDigits(input) {
     return false;
   }
 }
+
+function multiDigit(input) {
+  if (input.includes("3")) {
+    return "Won't you be my neighbor?";
+  }
+}
