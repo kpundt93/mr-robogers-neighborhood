@@ -29,5 +29,9 @@ function multiDigit(input) {
     return "Won't you be my neighbor?";
   } else if (input.includes("2")) {
     return "Boop!";
+  } else if (input.includes("1")) {
+    return "Beep!";
+  } else {
+    return false;
   }
 }
