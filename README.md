@@ -19,87 +19,94 @@
 _The application will take a user supplied number and return a range of numbers from 0 to the user supplied number. Substitutions will be made for numbers that follow certain rules and greetings from Mr. Roboger will be returned in place of a number._
 
 ## Tests
-_Describe: userInput(input)_
-* _Test: It should return an array with every whole integer from 0 to the user supplied number.
-  Code: userInput(5);
-  Expected Output: [0, 1, 2, 3, 4, 5]_
+```
+Describe: userInput(input)
 
-* _Test: It should convert the number array into a string array.
-  Code: userInput(5);
-  Expected Output: ["0", "1", "2", "3", "4", "5"]_
+Test: It should return an array with every whole integer from 0 to the user supplied number.
+Code: userInput(5);
+Expected Output: [0, 1, 2, 3, 4, 5]
 
-_Describe: singleDigit(input)_
-* _Test: It should recognize when the number is a 1 and return "Beep!".
-  Code: singleDigit(1);
-  Expected Output: "Beep!";_
+Test: It should convert the number array into a string array.
+Code: userInput(5);
+Expected Output: ["0", "1", "2", "3", "4", "5"]
+```
 
-* _Test: It should recognize when the number is a 2 and return "Boop!".
-  Code: singleDigit(2);
-  Expected Output: "Boop!";_
+```
+Describe: singleDigit(input)
 
-* _Test: It should recognize when the number is a 3 and return "Boop!".
-  Code: singleDigit(3);
-  Expected Output: "Won't you be my neighbor?";_
+Test: It should recognize when the number is a 1 and return "Beep!".
+Code: singleDigit(1);
+Expected Output: "Beep!";
 
-* _Test: It should recognize when the number is anything other than a 1, 2, or 3 and return false.
-  Code: singleDigit(4);
-  Expected Output: false;_
+Test: It should recognize when the number is a 2 and return "Boop!".
+Code: singleDigit(2);
+Expected Output: "Boop!";
 
-_Describe: multiDigit(input)_
-* _Test: It should recognize the string "3" in a multidigit number string and return "Won't you be my neighbor?".
-  Code: multiDigit("34");
-  Expected Output: "Won't you be my neighbor?"_
+Test: It should recognize when the number is a 3 and return "Boop!".
+Code: singleDigit(3);
+Expected Output: "Won't you be my neighbor?";
 
-* _Test: It should recognize the string "2" in a multidigit number string and return "Boop!".
-  Code: multiDigit("24");
-  Expected Output: "Boop!"_
+Test: It should recognize when the number is anything other than a 1, 2, or 3 and return false.
+Code: singleDigit(4);
+Expected Output: false;
+```
 
-* _Test: It should recognize the string "1" in a multidigit number string and return "Beep!".
-  Code: multiDigit("14");
-  Expected Output: "Beep!"_
+```
+Describe: multiDigit(input)
 
-* _Test: It should recognize when the string does not contain a "1", "2", or "3" and return false.
-  Code: multiDigit("44");
-  Expected Output: false;_
+Test: It should recognize the string "3" in a multidigit number string and return "Won't you be my neighbor?".
+Code: multiDigit("34");
+Expected Output: "Won't you be my neighbor?"
 
-_Describe: mrRoboger(input)_
-* _Test: It should take an input, loop over the input array, and push the correct phrase into a final array.
-  Code: mrRoboger(5);
-  Expected Output: ["0", "1", "2", "Won't you be my neighbor?", "4", "5"]_
+Test: It should recognize the string "2" in a multidigit number string and return "Boop!".
+Code: multiDigit("24");
+Expected Output: "Boop!"
 
-* _Test: It should take an input, loop over the input array, and push the correct phrase into a final array. This test adds in branching for "Boop!".
-  Code: mrRoboger(5);
-  Expected Output: ["0", "1", "Boop!", "Won't you be my neighbor?", "4", "5"]_
+Test: It should recognize the string "1" in a multidigit number string and return "Beep!".
+Code: multiDigit("14");
+Expected Output: "Beep!"
 
-* _Test: It should take an input, loop over the input array, and push the correct phrase into a final array. This test adds in branching for "Beep!".
-  Code: mrRoboger(5);
-  Expected Output: ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5"]_
+Test: It should recognize when the string does not contain a "1", "2", or "3" and return false.
+Code: multiDigit("44");
+Expected Output: false;
+```
+
+```
+Describe: mrRoboger(input)
+
+Test: It should take an input, loop over the input array, and push the correct phrase into a final array.
+Code: mrRoboger(5);
+Expected Output: ["0", "1", "2", "Won't you be my neighbor?", "4", "5"]
+
+Test: It should take an input, loop over the input array, and push the correct phrase into a final array. This test adds in branching for "Boop!".
+Code: mrRoboger(5);
+Expected Output: ["0", "1", "Boop!", "Won't you be my neighbor?", "4", "5"]
+
+Test: It should take an input, loop over the input array, and push the correct phrase into a final array. This test adds in branching for "Beep!".
+Code: mrRoboger(5);
+Expected Output: ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5"]
+```
 
 ## GitHub Pages
 _View the project here: https://kpundt93.github.io/mr-robogers-neighborhood/_
 
 ## Setup/Installation Requirements
-
-* _Navigate to https://github.com/kpundt93/mr-robogers-neighborhood_
-* _Click on the green "Code" button and copy the repository URL or click on the copy button_
-* _Open the terminal on your desktop_
-* _Once in the terminal, use it to navigate to your desktop folder_
-* _Once inside your desktop folder, use the command "git clone https://github.com/kpundt93/mr-robogers-neighborhood.git"_
-* _After cloning the project, navigate into it using the command "cd mr-robogers-neighborhood"_
-* _Use the command "git remote" to confirm the creation of the new local repository_
-* _Open the project with the code editor of your choice_
-
-_Note: when using the commands listed above, do not include the quotation marks. They are used here for readability._
+* Navigate to https://github.com/kpundt93/mr-robogers-neighborhood
+* Click on the green "Code" button and copy the repository URL or click on the copy button
+* Open the terminal on your desktop
+* Once in the terminal, use it to navigate to your desktop folder
+* Once inside your desktop folder, use the command `git clone https://github.com/kpundt93/mr-robogers-neighborhood.git`
+* After cloning the project, navigate into it using the command `cd mr-robogers-neighborhood`
+* Use the command `git remote` to confirm the creation of the new local repository
+* Open the project with the code editor of your choice
 
 ## Known Bugs
-
 * _No known bugs_
 
 ## Contact Information
 _Katie Pundt, kzpundt@gmail.com_
 
 ## License
-
 _MIT License: https://opensource.org/licenses/MIT_
 
 Copyright (c) _2021_ _Katie Pundt_
